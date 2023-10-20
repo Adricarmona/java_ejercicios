@@ -1,0 +1,1 @@
+EJERCICIO 7 --> Hacer una factura calculando el prodcucto sin iva y luego el iva del producto y sumandolo
