@@ -1,0 +1,1 @@
+Ejercicio_13 -> programa que te pide 10 numeros y te dice cuantos son positivos y cuantos negativos

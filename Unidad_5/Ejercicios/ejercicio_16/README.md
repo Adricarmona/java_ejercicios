@@ -1,0 +1,1 @@
+ejercicio_16 -> Comprueba si el numero es primo (que es divisible solo entre si mimso y 1)
