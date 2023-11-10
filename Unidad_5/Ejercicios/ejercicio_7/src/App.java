@@ -8,7 +8,8 @@ public class App {
         for (int i = 1; i < 5; i++) {
             System.out.print("-->");
             codigo = Integer.parseInt(System.console().readLine());
-            if (codigo == 4682) {
+            if (Integer.hashCode(codigo) == Integer.hashCode(4682)) {
+                
                 acertado = true;
                 i = 5;
                 System.out.println("Codigo acertado.");
