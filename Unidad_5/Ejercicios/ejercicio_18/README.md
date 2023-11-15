@@ -1,0 +1,1 @@
+ejercicio_18 -> Ingresa varios numeros (que detecta que son distintos) e ir del menor al mayor de 7 en 7

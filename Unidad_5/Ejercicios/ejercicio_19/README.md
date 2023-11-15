@@ -1,0 +1,1 @@
+Ejercicicio_19 -> hacer una piramide, pidiendo la altura y el caracter que desea imprimir 
