@@ -1,0 +1,1 @@
+Ejercicio_22 -> muestra en pantalla los primos del 2 al 100
