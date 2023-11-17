@@ -11,12 +11,11 @@ public class App {
     }
 
     public static boolean EsPrimo (int num) {
-        boolean primo = true;
         for (int i = 2; i < Math.sqrt(num); i++) {
             if ((num%i) == 0) {
-                primo = false;
+                return false;
             }
         }
-        return primo;
+        return true;
     }
 }
