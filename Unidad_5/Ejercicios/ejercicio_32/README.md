@@ -1,0 +1,1 @@
+ejercicio_32 -> introduce un numero y cuenta los numeros pares para luego sumarlos
