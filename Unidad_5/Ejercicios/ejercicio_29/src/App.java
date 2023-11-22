@@ -15,7 +15,7 @@ public class App {
         // comprobamos los numeros mientras imprimimos
         for (int i = 0; i < num1; i++) {
             if ((i % num2) != 0) {
-                System.out.print(i+"");
+                System.out.print(i+" ");
             }
         }
     }
