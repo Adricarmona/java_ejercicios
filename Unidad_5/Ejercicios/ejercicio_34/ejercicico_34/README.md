@@ -1,1 +1,0 @@
-ejercicio_34 -> pide dos numeros y va comprobando el primero de cada uno luego el segundo y asi hasta acabarlo y comprueba cuales son pares y impares
