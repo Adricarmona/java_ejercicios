@@ -10,6 +10,7 @@ public class App {
             if ((i % 10) % 2 == 0 ) {pares++;} // pares
             if ((i % 10) % 2 != 0 ) {impares++;} // impares
         }
+        if (num == 0) {pares++;} // calcula si el ultimo es 0
         System.out.println(pares+" digitos pares y "+impares+" digitos impares");
     }
 }
