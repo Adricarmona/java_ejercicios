@@ -24,5 +24,18 @@ public class App {
             espacios_f--; // vamos quitando un espacio de fuera
             altura++; // aumentamos la altura
         }
+
+        // segunda mitad
+        while (altura > 0 ) {
+            for (int i = 1; i <= espacios_f; i++) {System.out.print(" ");} // pinta los primeros espacios
+            System.out.print("*");// imprimimos el primer asterisco
+            for (int i = 1; i < espacios_d; i++) {System.out.print(" ");} // pintamos los espacios del medio, empezamos en 1 por que es impar y asi cuando vamos añadiendo 2 sigue en impar
+            if (altura > 1) {System.out.print("*");} // pintamos el ultimo asterisco
+            System.out.println(""); // salto de linea
+
+            espacios_d-=2; // añadimos dos espacios dentro
+            espacios_f++; // vamos quitando un espacio de fuera
+            altura--; // aumentamos la altura
+        }
     }
 }
