@@ -1,0 +1,1 @@
+ejercicio_40 -> pinta un rombo hueco , pidiendo un numero impar y mayor que 3, mostrando un error en caso negativo
