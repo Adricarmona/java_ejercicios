@@ -21,11 +21,12 @@ public class App {
 
     public static int dalavuelta(int num) {
         int tmp = 0;
-        while (num > 0) {
-            tmp += num % 10;
+        tmp += num % 10;
+        while (num > 1) {
             tmp *= 10;
             num /= 10;
+            tmp += num % 10;
         }
-        return tmp/=10;
+        return tmp;
     }
 }
