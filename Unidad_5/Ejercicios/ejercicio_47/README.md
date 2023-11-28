@@ -1,0 +1,1 @@
+ejercicio 47 -> un programa que pinte un 8 por pantalla con la tecla M, deve ser un numero entero impar mayor que 4, sino muestra un mensaje de error 
