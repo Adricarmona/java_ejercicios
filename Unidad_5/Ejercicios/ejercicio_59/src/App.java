@@ -6,10 +6,7 @@ public class App {
             System.out.print("Por favor, introduzca la altura del árbol: ");
             altura = Integer.parseInt(System.console().readLine());
         } while (altura < 4);
-
-        // calculamos el grosor que es 2 * (altura - 2) - 1
-        int grosor = (2 *(altura - 2)) - 1;
-
+        
         // pintamos los espacios y  la estrella
         for (int i = 1; i < altura - 2; i++) {
             System.out.print(" ");
@@ -37,7 +34,7 @@ public class App {
         
         // pinta la ultima lineas
         System.out.print("");
-        for (int i = 0; i < grosor; i++) {
+        for (int i = 0; i < (2 *(altura - 2)) - 1; i++) {
             System.out.print("^");
         }
         System.out.println("");
