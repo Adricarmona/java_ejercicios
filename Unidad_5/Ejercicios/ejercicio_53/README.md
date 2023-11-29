@@ -1,0 +1,1 @@
+ejercicio 53 -> un triangulo pegado a la izquierda
