@@ -1,0 +1,1 @@
+ejercicio 5 -> pinta 50 numeros enteros entre 100 y 199 separado por espacios, tambien muestra el maximo el minimo y la media de los numeros

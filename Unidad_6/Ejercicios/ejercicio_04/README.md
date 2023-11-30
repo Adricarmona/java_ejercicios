@@ -1,0 +1,1 @@
+ejercicio 4 -> pinta 20 numeros senteros entre 0 y 10 separados por espacios

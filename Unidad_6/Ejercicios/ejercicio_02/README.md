@@ -1,0 +1,1 @@
+ejercicio 2 -> Un programque te dice una carta de la baraja prancesa 

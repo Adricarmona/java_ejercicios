@@ -1,0 +1,1 @@
+Ejercicio 6 -> genera un numero aleatorio del 0 al 100 y tienes que adivinarlo con 5 oportuniades tienes
