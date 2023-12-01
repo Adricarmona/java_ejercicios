@@ -1,0 +1,1 @@
+ejercicio 9 -> genera numeros entre 0 y 100 pares y que pare cuando genere 24 y contar cuantos numeros a generado

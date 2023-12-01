@@ -1,0 +1,1 @@
+Ejercicio 12 -> llena la pantalla de caracteres aleatorios ( a lo matrix)

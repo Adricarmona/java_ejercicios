@@ -1,0 +1,1 @@
+ejercicio 13 -> simula una tirada de 2 dados y no para de tirarlos hasta que el resultado da lo mismo

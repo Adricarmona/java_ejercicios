@@ -1,0 +1,1 @@
+ejercicio 10 -> un programa que pinta 10 lineas formada por caracteres especiales elegidos de manera aleatoria y las lineas tienen una longitud aleatoria de 1 a 40 caracteres
