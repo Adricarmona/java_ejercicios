@@ -1,1 +1,0 @@
-Ejercicio_9 -> Un programa que te haga una ecuacion de 2 grado

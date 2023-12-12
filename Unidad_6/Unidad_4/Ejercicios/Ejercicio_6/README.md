@@ -1,1 +1,0 @@
-EJERCICIO_6 -> Calcula el tiempo que tarda un objeto caer desde una altura.

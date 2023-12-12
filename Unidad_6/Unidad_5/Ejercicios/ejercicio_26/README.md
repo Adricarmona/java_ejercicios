@@ -1,1 +1,0 @@
-Ejercicio_26 -> pedir un numero (largo) y un numero(uno solo) y encontrar donde esta dentro de el

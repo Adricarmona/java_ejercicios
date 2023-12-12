@@ -1,1 +1,0 @@
-ejercicio_35 -> Te pide la altura que quieras para pintar una X

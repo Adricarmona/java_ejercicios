@@ -1,1 +1,0 @@
-ejercicio 51 -> un programa que elimina los 0 y los 8 de un numero

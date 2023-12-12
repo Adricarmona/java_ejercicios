@@ -1,1 +1,0 @@
-ejercicio 60 -> ejercicio de dibujar unos calcetines

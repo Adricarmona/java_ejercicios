@@ -1,1 +1,0 @@
-ejercicio_50 -> dibuja con asteriscos un 155 pidiendo altura y anchura , la parte de arriba de los cincos y del uno son siempre iguales pero la de abajo del cinco no, la altura minima es un 5 y los espacios un 1

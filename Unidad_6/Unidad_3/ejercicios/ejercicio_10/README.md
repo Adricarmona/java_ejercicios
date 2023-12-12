@@ -1,1 +1,0 @@
-EJERCICIO 10 --> Hacer un conversor de Mb a Kb.

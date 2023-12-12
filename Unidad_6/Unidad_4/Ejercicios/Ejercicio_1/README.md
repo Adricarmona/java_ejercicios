@@ -1,1 +1,0 @@
-EJERCICIO 1 -> ejercicio que te pide dia de la semana y te dice la clase que tienes a primera.

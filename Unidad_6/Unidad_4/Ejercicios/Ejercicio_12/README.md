@@ -1,1 +1,0 @@
-Ejercicio_12 -> programa que hace un cuestionario de 10 preguntas y te da el resultado final

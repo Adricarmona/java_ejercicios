@@ -1,1 +1,0 @@
-Ejercicio_14 -> Programa que calcula una potencia

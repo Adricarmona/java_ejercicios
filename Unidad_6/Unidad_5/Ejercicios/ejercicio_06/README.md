@@ -1,1 +1,0 @@
-Ejercicio_6 -> enseña los numeros 320 hasta al 160 contando de 20 en 20 hacia atras utilizando do-while

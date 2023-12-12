@@ -1,1 +1,0 @@
-ejercicio 58 -> calcula la media del total de los numeros ingresados

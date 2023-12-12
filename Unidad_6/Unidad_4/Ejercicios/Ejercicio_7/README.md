@@ -1,1 +1,0 @@
-EJERCICIO_7 -> Programa que calcula la nota de la media entre 3 notas

@@ -1,1 +1,0 @@
-Ejericio_39 -> Te pide un numero entero positivo y te hace su factorial del 1 al numero indicado

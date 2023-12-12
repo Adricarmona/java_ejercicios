@@ -1,1 +1,0 @@
-Ejercicio_15 -> Crea varios exponentes con los datos indicados por ejemplo: 2 y 5 y saldria 2¹,2²,2³,2⁴,2⁵

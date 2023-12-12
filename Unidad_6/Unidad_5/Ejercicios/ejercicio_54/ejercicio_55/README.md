@@ -1,1 +1,0 @@
-ejercicio 55 -> desplaza un numero de derecha a izquierda 

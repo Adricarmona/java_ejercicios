@@ -1,1 +1,0 @@
-ejercicio_38 -> haz un reloj de arena pidiendo la altura

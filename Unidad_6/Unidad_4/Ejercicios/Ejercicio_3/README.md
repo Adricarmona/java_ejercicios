@@ -1,1 +1,0 @@
-EJERCICIO_3 -> escribe el dia de la semana segun el numero que le des
