@@ -1,0 +1,1 @@
+EJERCICIO 6 --> Calcula el area del triangulo

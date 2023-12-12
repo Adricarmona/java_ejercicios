@@ -1,0 +1,1 @@
+ejercicio_27 -> indica un teclado y enseña cuenta y suma los multiplos de 3 desde el 1 hasta el indicado.

@@ -1,0 +1,1 @@
+Ejercicio 49 -> Un programa que le vas dando numeros y para cuando le des uno primo, calcula el total de los numeros , el maximo , el minimo y la media

@@ -1,0 +1,1 @@
+ejercicio_43 -> divide los numeros en dos pidiendo desde donde los va a dividir

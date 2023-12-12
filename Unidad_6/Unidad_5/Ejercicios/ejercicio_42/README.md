@@ -1,0 +1,1 @@
+ejercicio_42 -> pide un numero positivo entero y te dice los 5 siguientes si son primos , empezando por el indicado

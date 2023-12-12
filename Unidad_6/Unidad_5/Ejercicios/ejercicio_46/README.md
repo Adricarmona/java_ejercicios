@@ -1,0 +1,1 @@
+ejercicio 46 -> pinta un rectangulo que la altura y la anchura sea mayor que 2

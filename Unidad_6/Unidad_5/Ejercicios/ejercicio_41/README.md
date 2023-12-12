@@ -1,0 +1,1 @@
+ejericio_41 -> calcular cuantos numeros pares e impares hay en un numero utilizando long
