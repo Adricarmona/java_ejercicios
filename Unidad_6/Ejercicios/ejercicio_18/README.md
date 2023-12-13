@@ -1,0 +1,1 @@
+ejercicio 18 -> genera de forma aleatoria 3 colores sobre 6 a cada habitacion (son 3) y que no se repita ninguno

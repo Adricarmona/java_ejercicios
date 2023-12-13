@@ -1,0 +1,1 @@
+ejercicio 25 -> genera 100 numeros aleatorios entre 10 y 200 los primos tienen que aparecer entre almuadillas

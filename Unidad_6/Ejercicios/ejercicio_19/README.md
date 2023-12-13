@@ -1,0 +1,1 @@
+ejercicio 19 -> muestra 50 numeros aleatorios enteros entre -100 y 200 y separados por espacios muestra el maximo de los pares , el minimo de los impares y la media de todos los numeros generados

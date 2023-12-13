@@ -1,0 +1,1 @@
+ejercicio 21 -> un programa que muestre 5 monedas que sea 1 centimo , 2 centimos , 5 centimos, 10 centimos, 20 centimos , 50 centimos , 1€ o 2 € y con cara o cruz

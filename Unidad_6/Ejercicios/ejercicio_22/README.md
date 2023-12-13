@@ -1,0 +1,1 @@
+Ejercicio 22 -> pinta una serpiente por pantalla pidiendo la longitud, empieza en la posicion 13 y apartir de ahi ha que serpente

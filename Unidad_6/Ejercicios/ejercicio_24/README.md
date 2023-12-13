@@ -1,0 +1,1 @@
+Ejercicio 24 -> un programa que le des un numero y te elija ese numero
