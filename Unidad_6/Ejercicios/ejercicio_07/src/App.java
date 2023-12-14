@@ -11,13 +11,13 @@ public class App {
                 res = (int)(Math.random() * 3) + 1;
                 switch(res) {
                 case 1:
-                    System.out.print(" 1 |");
+                    System.out.print("1  |");
                     break;
                 case 2:
                     System.out.print(" 2 |");
                     break;
                 case 3:
-                    System.out.print(" X |");
+                    System.out.print("  X|");
                     default:
                 }
             }

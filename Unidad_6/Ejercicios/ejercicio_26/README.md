@@ -1,0 +1,1 @@
+Ejercicio 26 -> pinta un turron pidiendo la anchura y altura y quitandole un trozo de un borde

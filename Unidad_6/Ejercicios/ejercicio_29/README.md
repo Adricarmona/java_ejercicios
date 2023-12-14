@@ -1,0 +1,1 @@
+Ejercici 29 -> un programa que muestre la prevision del tiempo, Las temperaturas maximas y minimas (segun la tabla indicada) y con sus probabilidades (tambien indicadas)
