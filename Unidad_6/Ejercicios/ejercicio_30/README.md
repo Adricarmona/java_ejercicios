@@ -1,0 +1,1 @@
+ejercicio 30 -> el ejercicio de la pecera pero a lo grande

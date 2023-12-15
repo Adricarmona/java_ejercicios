@@ -11,22 +11,80 @@ public class App {
 
         int Temperatura_minima = 0;
         int Temperatura_maxima = 0;
-        int estado_del_cielo = 0;
+        int cielo = 0;
+        String nube = "";
+        int tmp;
         switch (estacion) {
             case 1:
-                Temperatura_minima = (int)(Math.random() * 15);
-                Temperatura_maxima = (int)(Math.random() * (15 - Temperatura_minima) + (Temperatura_minima + 15));
-                Temperatura_minima += 15; // le añadimos 15 por que es la temperatura minima
-                estado_del_cielo = (int)(Math.random() * 20 + 40);
+                Temperatura_minima = (int)(Math.random() * 15 + 15);
+                Temperatura_maxima = (int)(Math.random() * 15 + 15);
+                if (Temperatura_minima > Temperatura_maxima) {
+                    tmp = Temperatura_maxima;
+                    Temperatura_maxima = Temperatura_minima;
+                    Temperatura_minima = tmp;
+                }
+                cielo = (int)(Math.random() * 10);
+                    if (cielo > 6) {
+                        nube = "Nublado";
+                    } else {
+                        nube = "Soleado";
+                    }
                 break;
-        
+            case 2:
+                Temperatura_minima = (int)(Math.random() * 20 + 25);
+                Temperatura_maxima = (int)(Math.random() * 20 + 25);
+                if (Temperatura_minima > Temperatura_maxima) {
+                    tmp = Temperatura_maxima;
+                    Temperatura_maxima = Temperatura_minima;
+                    Temperatura_minima = tmp;
+                }
+                cielo = (int)(Math.random() * 10);
+                    if (cielo > 8) {
+                        nube = "Nublado";
+                    } else {
+                        nube = "Soleado";
+                    }
+                break;
+            case 3:
+                Temperatura_minima = (int)(Math.random() * 10 + 20);
+                Temperatura_maxima = (int)(Math.random() * 10 + 20);
+                if (Temperatura_minima > Temperatura_maxima) {
+                    tmp = Temperatura_maxima;
+                    Temperatura_maxima = Temperatura_minima;
+                    Temperatura_minima = tmp;
+                }
+                cielo = (int)(Math.random() * 10);
+                    if (cielo > 4) {
+                        nube = "Nublado";
+                    } else {
+                        nube = "Soleado";
+                    }
+                break;
+            case 4:
+                Temperatura_minima = (int)(Math.random() * 25);
+                Temperatura_maxima = (int)(Math.random() * 25);
+                if (Temperatura_minima > Temperatura_maxima) {
+                    tmp = Temperatura_maxima;
+                    Temperatura_maxima = Temperatura_minima;
+                    Temperatura_minima = tmp;
+                }
+                cielo = (int)(Math.random() * 10);
+                    if (cielo > 2) {
+                        nube = "Nublado";
+                    } else {
+                        nube = "Soleado";
+                    }
+                break;
             default:
-                break;
         }
+
+        
         System.out.println(""); // salto de linea para que quede como el ejemplo
         System.out.println("revisión del tiempo para mañana");
         System.out.println("-------------------------------");
-        System.out.print("Temperatura mínima: ");
+        System.out.println("Temperatura mínima: "+Temperatura_minima+"ºC");
+        System.out.println("Temperatura máxima: "+Temperatura_maxima+"ºC");
+        System.out.println(nube);
 
     }
 }
