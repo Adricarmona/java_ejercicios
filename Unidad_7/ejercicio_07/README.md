@@ -1,0 +1,1 @@
+ejercicio 7 -> genera 100 numeros aleatorios del 0 al 20 y los muestre separados por espacios, pide 2 numeros, el 1º es el numero de los 100 generados por el que quiere sustitir y el 2º es el numero que poner, se vuelve a pintar los numeros y muestra los cambiados entre comillas

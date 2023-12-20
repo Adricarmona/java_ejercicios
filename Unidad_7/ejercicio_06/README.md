@@ -1,0 +1,1 @@
+ejercicio 6 -> mueve todos los numeros del array a un lado a la derecha y el de la derecha a la izquierda de 15 de distancia

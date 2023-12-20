@@ -1,0 +1,1 @@
+Ejercicio 3 -> un programa que pidea 10 numeros y los muestre del reves en orden inverso

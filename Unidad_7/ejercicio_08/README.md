@@ -1,0 +1,1 @@
+Ejercicio 8 -> pide la temperatura media de cada mes muestra un diagrama de barras con esos datos 

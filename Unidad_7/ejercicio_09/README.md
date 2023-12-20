@@ -1,0 +1,1 @@
+Ejercicio 9 -> pide 8 numeros enteros y muestra los pares y los impares
