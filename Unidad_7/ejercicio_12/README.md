@@ -1,0 +1,1 @@
+Ejercicio_12 -> pide 10 numeros y los almacena en un array, pide inicial y final , comprueba que inicial sea menor que final y que estan entre 0 y 9 y reponiendo todos los numeros

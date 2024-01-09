@@ -1,0 +1,1 @@
+Ejercicio 16 -> un programa que rellene 20 puestosd con numeros de 0 a 400, pregunta si quiere resaltar los multiplos de 5 o de 7 y los enseña entre corchete

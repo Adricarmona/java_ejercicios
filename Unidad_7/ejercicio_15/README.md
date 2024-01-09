@@ -1,0 +1,2 @@
+Ejercicio_15 -> Un programa que te indica en que mesa sentarte, en una mesa se puede sentar hasta 4, si son mayores que 4 da un mensaje de que no se admiten (numero indicado), 
+se intentan poner en una mesa de 0 y sino se ponen en una mesa que quepan todos los integrantes. las mesas aparecen con valores aleatorios entre 0 y 4.

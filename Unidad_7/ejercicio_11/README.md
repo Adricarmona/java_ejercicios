@@ -1,0 +1,1 @@
+Ejercicio 11 -> pide 10 numeros por teclado y los guarda en un array, y guarda los primos a las primeras posiciones

@@ -1,0 +1,1 @@
+ejercicio 13 -> llena un array de 100 con numeos aleatorios entre 0 y 500, enseña el array y pregunta si quieres marcar entre asteriscos el minimo o el maximo

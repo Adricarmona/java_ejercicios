@@ -10,11 +10,11 @@ public class App {
         /*
          * Comprobamos cuales son pares y cuales no
          */
-        int[] pares = new int[8];
-        int[] inpares = new int[8];
+        int[] pares = new int[20];
+        int[] inpares = new int[20];
         int j = 0;
         int y = 0;
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 20; i++) {
             if (numeros[i] % 2 == 0) {
                 pares[j] = numeros[i];
                 j++;
@@ -40,7 +40,7 @@ public class App {
         /*
          * imprimimos el resultado
          */
-        for (int i = 0; numeros[i] != 0; i++) {
+        for (int i = 0; i < 20 ; i++) {
             System.out.print(numeros[i]+" ");
         }
     }

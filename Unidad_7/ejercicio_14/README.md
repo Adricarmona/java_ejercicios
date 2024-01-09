@@ -1,0 +1,2 @@
+ejercicio 14 -> pide 8 palabras y guardalas ( tienen que ser de palabras ), despues si son colores van al principio y si no al final 
+los colores que tienen que estar en un array son: verde, rojo, amarillo, naranja, rosa, negro, blanco, morado. 
