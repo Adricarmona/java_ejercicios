@@ -1,0 +1,1 @@
+ejercicio 8 -> un programa que diga en una posicion de un alfil diga en que posiciones se puede mover 

@@ -1,0 +1,1 @@
+ejercicio 5 -> un programa que rellene un array de 6 ilas y 10 columnas con numeros entre 0 y 1000 acto seguid decir la posicion del mas alto y y del mas bajo

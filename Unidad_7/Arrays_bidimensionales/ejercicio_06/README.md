@@ -1,0 +1,1 @@
+Ejercicio 6 -> el de antes pero que no se repita ningun numero

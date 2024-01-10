@@ -1,0 +1,1 @@
+ejercicio 7 -> mejora el jugo busca el tesoro de forma que si hay una mina a una casilla de distancia el prograba avise diciendo ¡Cuidado!¡Hay una mina cerca!

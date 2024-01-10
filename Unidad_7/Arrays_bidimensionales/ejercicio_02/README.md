@@ -1,0 +1,1 @@
+ejercicio 2 -> un programa que pide 20 numeros y los rellena en una tabla , para luego mostrar las sumas de las columnas filas y total
