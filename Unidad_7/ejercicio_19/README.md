@@ -1,1 +1,1 @@
-Ejercicio 19 ->
+Ejercicio 19 -> Un programa que añade un numero en una posicion del array que se muestra junto a un indice. y moviendo todos los numeros hacia la derecha desde la posicion indicada para que solo se pierda el ultimo
