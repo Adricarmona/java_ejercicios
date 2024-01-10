@@ -1,1 +1,1 @@
-Ejercicio 18 -> 
+Ejercicio 18 -> un programa que genere 10 numeros aleatorios entre 0 y 200 enseñandolos con un indice y luego enseñando otro con los impares menos de 100 y los pares mas de 100 , se quedan sin alguno se rellenan con los que quedan
