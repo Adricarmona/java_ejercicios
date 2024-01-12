@@ -1,7 +1,30 @@
+/*
+ *  @Autor: Adricarmona         (en github)
+ *           _____ _       ___      
+ *   ____  / ____| |     |__ \     
+ *  / __ \| |  __| | __ _   ) |___ 
+ * / / _` | | |_ | |/ _` | / // __|
+ *| | (_| | |__| | | (_| |/ /_\__ \
+ *\ \__,_|\_____|_|\__,_|____|___/
+ * \____/                         
+ * 
+ *  Ejercicio 10. hacer un tres en raya.
+ * 
+ */
+
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Ejercicio 10\n");
 
+        inicio_juego(); // donde se inicia el juego
+    }
+
+    /*
+     * Se inicia el juego generando un tablero limpio y preguntando al usuario y la maquina que jugadas
+     * van a hacer y comprobando si han hanado o no , en casi de que alguno gane lo señala y finaliza el programa
+     * y en caso de empate finaliza el programa diciendo que empatan
+     */
+    public static void inicio_juego() {
         char[][] tablero = {{'#','#','#'},{'#','#','#'},{'#','#','#'}};
         boolean ganado = false;
         int veces_jugadas = 0;
@@ -22,8 +45,20 @@ public class App {
             }
             veces_jugadas=+ 2; // cada vez se juege la maquina y el usuario suma +
         } while (!ganado && veces_jugadas < 9);
+
+        /*
+         * si empatan
+         */
+        if (veces_jugadas > 9) {
+            System.out.println("/////////////// EMPATE NADIE GANO ///////////////");
+        }
     }
 
+    /*
+     * Pide las jugadas del jugador y verifica que sea correcta 
+     * o
+     * Genera una jugada de la maquina y verifica que sea valida
+     */
     public static boolean jugada(char[][] tablero, boolean jugador) {
         int linea_o_columna[] = new int[2];
         /*
