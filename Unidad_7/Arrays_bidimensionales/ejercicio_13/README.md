@@ -1,0 +1,2 @@
+ejercicio_13 -> calcula la estatura media minima y maxima en cm de personas de defirentes paises (España, rusia, japon, australia).
+Los datos se simulan mediante un array de 4 x 10 y numeros aleatorios entre 140 y 210. los paises tienen que estar en un array. 

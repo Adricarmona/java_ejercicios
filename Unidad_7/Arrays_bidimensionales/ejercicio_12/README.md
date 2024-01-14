@@ -1,0 +1,1 @@
+ejercicio_12 -> un programqa que enseñe un array de 9 x 9 con numeros entre 500 y 900. y mostrar en diagonal de abajo izquierda a arriba derecha y el maximo y minimo

@@ -1,0 +1,2 @@
+ejercicio_11 -> enseña un array de 10 por 10 con numeros aleatorios entre 200 y 300. Muestra los numeros en diagonal de la superior izquierda a inferior derecha .
+y el maximo, minimo y la media de los numeros
