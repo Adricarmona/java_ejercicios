@@ -6,24 +6,12 @@ public class App {
     }
 
     /*
-     * funcion para rellenar el int de numeros en orden
-     */
-    public static int[] rellenador(int[] numero) {
-        for (int i = 0; i < numero.length; i++) {
-            numero[i] = i;
-        }
-        return numero;
-    }
-
-    /*
      * calcula la posicion del alfil
      */
     public static void posicion_alfil() {
         /*
-         * prepara los numeros pedidos y la altura del tablero
+         * prepara los numeros pedidos
          */
-        int altura[] = rellenador(new int[8]);
-        int anchura[] = rellenador(new int[8]);
         System.out.print("Introduzca la posición del alfil: ");
         String posicion = (System.console().readLine().toLowerCase());
         int columnaAlfil = (int)(posicion.charAt(0)) - 96;
@@ -32,8 +20,42 @@ public class App {
         /*
          * calculamos los 4 lados de el alfil
          */
-        System.out.println("El álfil puede moverse a las siguientes posiciones:");
+        int altura = filaAlfil;
+        int anchura = columnaAlfil;
+        System.out.println("El álfil puede moverse a las siguientes posiciones: ");
         // arriba izquierda
+        while (anchura < 8 && altura > 0) {
+            anchura++;
+            altura--;
+            System.out.print(numero_a_letra(anchura)+altura+" ");
+        }
+
+        // arriba derecha
+        altura = filaAlfil;
+        anchura = columnaAlfil;
+        while (anchura < 8 && altura < 8) {
+            anchura++;
+            altura++;
+            System.out.print(numero_a_letra(anchura)+altura+" ");
+        }
+
+        // abajo izquierda
+        altura = filaAlfil;
+        anchura = columnaAlfil;
+        while (anchura > 0 && altura > 0) {
+            anchura--;
+            altura--;
+            System.out.print(numero_a_letra(anchura)+altura+" ");
+        }
+
+        // abajo derecha
+        altura = filaAlfil;
+        anchura = columnaAlfil;
+        while (anchura > 0 && altura < 8) {
+            anchura--;
+            altura++;
+            System.out.print(numero_a_letra(anchura)+altura+" ");
+        }
 
     }
 
@@ -60,32 +82,6 @@ public class App {
                 return "h";
             default:
             return " ";
-        }
-    }
-
-    /*
-     * Cambia de letra a numero
-     */
-    public static int letra_a_numero(String numero) {
-        switch (numero) {
-            case "a":
-                return 1;
-            case "b":
-                return 2;
-            case "c":
-                return 3;
-            case "d":
-                return 4;
-            case "e":
-                return 5;
-            case "f":
-                return 6;
-            case "g":
-                return 7;
-            case "h":
-                return 8;
-            default:
-            return 0;
         }
     }
 }
