@@ -1,6 +1,6 @@
 package matematicas;
 
-public class calculos  {
+public class calculo  {
 
     /*
      * Comprueba que el numero sea capicua
