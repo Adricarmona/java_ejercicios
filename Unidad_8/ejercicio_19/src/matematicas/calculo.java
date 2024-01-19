@@ -222,4 +222,14 @@ public class calculo  {
 
         return binario;
     }
+
+    /*
+     *  de decimal a octal
+     */
+    public static int decimalOctal(int decimal) {
+        int octal = 0;
+        for (int i = 0; i < array.length; i++) {
+            
+        return octal;
+    }
 }
