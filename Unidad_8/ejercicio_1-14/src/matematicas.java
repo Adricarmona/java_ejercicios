@@ -45,6 +45,8 @@ public class matematicas  {
      * devuelve una potencia, dada una base y un exponente
      */
     public static int potencia(int base, int exponente) {
+        if (exponente == 0)
+            return 1;
         int total = base;    
         for (int i = 1; i < exponente; i++) {
             total *= base;

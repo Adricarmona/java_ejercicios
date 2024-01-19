@@ -171,4 +171,16 @@ public class calculo  {
             }
             return numdos;
     }
+
+    /*
+     * Mide la logitud de el numero 
+     */
+    public static int longitudNumero(int num) {
+        int longitud = 0;
+        while (num > 0) {
+            longitud++;
+            num /= 10;
+        }
+        return longitud;
+    }
 }

@@ -1,0 +1,1 @@
+Ejercicio 17 -> pasa de binario a decimal
