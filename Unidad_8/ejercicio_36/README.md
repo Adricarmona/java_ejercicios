@@ -1,0 +1,1 @@
+Ejercicio 36 -> Crea una funcion de friltrar primos en un array y que devuelva un array que este en el ingresado, y utilizalo en otro programa para ver que funcione

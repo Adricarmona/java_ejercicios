@@ -1,0 +1,1 @@
+ejercicio 38 -> una funcion que le mestes arrays de capicuas y te devuelve los que sean capicuas
