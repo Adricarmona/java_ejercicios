@@ -1,15 +1,6 @@
-public class App {
-    public static void main(String[] args) {
-        int array[] = generaArrayInt(7, 1, 9);
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
-        }
-        System.out.println();
-        array = rotaDerechaArrayInt(array, 4);
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i]+" ");
-        }
-    }
+package funciones;
+
+public class funcionesArrays {
 
     /*
      * un generador de arrays aleatorios que le metes el tamaño minimo y maximo
@@ -105,9 +96,28 @@ public class App {
     }
 
     /*
-     * rota n posiciones el array indicado
+     * rota n posiciones de la derecha el array indicado
      */
     public static int[] rotaDerechaArrayInt(int[] numero, int posicines) {
+        int tmp[] = new int[numero.length];
+        numero = volteaArrayInt(numero);
+
+        for (int i = 0; i < posicines; i++) {
+            tmp[(posicines - 1) - i] = numero[i];
+        }
+
+        for (int i = posicines; i < numero.length; i++) {
+            tmp[i] = numero[i];
+        }
+
+        tmp = volteaArrayInt(tmp);
+        return tmp;
+    }
+
+    /*
+     * rota n posiciones de la izquierda el array indicado 
+     */
+    public static int[] rotaIzquierdaArrayInt(int[] numero, int posicines) {
         int logitudNumero = posicines;
         int tmp[] = new int[numero.length];
 
