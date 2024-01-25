@@ -2,8 +2,11 @@ import funciones.funcionesArrays;
 
 public class funcionesArraysBi {
     public static void main(String[] args) throws Exception {
-        int[][] test = {{1,1,1,1},{8,8,4,8},{1,1,1,1},{1,1,1,1}};
-        esPuntoDeSilla(test, 2, 1);
+        int[][] test = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+        int[] test2 = diagonal(test, 0, 3, "neso");
+        for (int i = 0; i < 4; i++) {
+            System.out.print(test2[i]+" ");
+        }
     }
 
     public static int[][] generaArrayBiInt(int linea, int columna, int minimo, int maximo) {
@@ -18,9 +21,9 @@ public class funcionesArraysBi {
     }
 
     public static int[] filaDeArrayBiInt(int[][] arrayDoble, int posicines){
-        int[] array = new int[arrayDoble.length];
+        int[] array = new int[arrayDoble[posicines].length];
 
-        for (int i = 0; i < arrayDoble.length; i++) {
+        for (int i = 0; i < arrayDoble[posicines].length; i++) {
             array[i] = arrayDoble[posicines][i];
         }
 
@@ -88,7 +91,54 @@ public class funcionesArraysBi {
      *      nose de arriba izquiera a abajo derecha
      *      neso de arriba derecha a aabajo izquierda
      */
-    public static void diagonal(int[][] arrayBi, int fila, int coumna, String direccion) {
-        int[] diagonal = new int[arrayBi.long];
+    public static int[] diagonal(int[][] arrayBi, int fila, int columna, String direccion) {
+        int diagonalTamano = filaDeArrayBiInt(arrayBi,0).length; // cogemos la primera columna y sacamos la altura
+        int diagonal[] = new int[diagonalTamano]; // y hacemos un array de la longitud de la fila
+    
+        
+        int conjunto = 0;
+        switch (direccion) {
+            case "nose": // de izquierda a derecha
+
+                conjunto = fila - columna;
+
+                while (fila > 0 && columna > 0) {
+                    fila--;
+                    columna--;
+                }
+            
+                for (int i = fila; i < diagonalTamano; i++) {
+                    for (int j = columna; j < diagonal.length; j++) {
+                        if (i - j == conjunto) {
+                            diagonal[i] = arrayBi[i][j];
+                        }
+                    }
+                }
+
+                
+                break;
+            case "neso":
+                
+                conjunto = fila + columna;
+
+                while (fila > 0 && columna < diagonal.length) {
+                    fila--;
+                    columna++;
+                }
+
+                for (int i = fila; i < diagonalTamano; i++) {
+                    for (int j = columna; j >= 0; j--) {
+                        if (i + j == conjunto) {
+                            diagonal[i] = arrayBi[i][j];
+                        }
+                    }
+                }
+                
+            break;
+        
+            default:
+                break;
+        }
+        return diagonal;
     }
 }
