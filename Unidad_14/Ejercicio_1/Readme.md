@@ -1,0 +1,1 @@
+Ejercicio 1 -> pide 6 numeros y di cual es el maximo, si no es un numero o no es entero lo pide de nuevo
