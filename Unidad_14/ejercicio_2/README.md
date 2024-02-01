@@ -1,0 +1,1 @@
+ejercicio_2 -> modifica gato para que cree apareaCon. y crea una exepcion de que el apareamiento es imposible "ExceptionApareamientoImposible"
