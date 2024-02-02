@@ -79,4 +79,12 @@ public class Gato extends Animal {
             }
         }
     }
+
+    public Gato apareaCon(Gato otroGato) throws ExcepcionApareamientoImposible {
+        if (this.getSexo() == otroGato.getSexo()) {
+            System.out.println(this.getSexo()+" "+otroGato.getSexo());
+            throw new ExcepcionApareamientoImposible();
+        }
+        return new Gato();
+    }
 }
