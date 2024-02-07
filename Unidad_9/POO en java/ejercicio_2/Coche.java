@@ -1,14 +1,17 @@
 package ejercicio_2;
 
 public class Coche extends Vehiculo {
-    int kilometrajeCoche;
 
-    void quemarRueda(){
+    public Coche(){
+        super();
+    } 
+
+    public void quemarRueda(){
         System.out.println("*quema rueda*");
     }
 
-    int andarCoche(){
-        System.out.print("Cantidad kilometros ->");
-        
+    public void andarCoche(){
+        System.out.print("Cantidad kilometros = ");
+        setKilometros(Integer.parseInt(System.console().readLine()));
     }
 }

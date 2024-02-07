@@ -16,8 +16,4 @@ public class Bicicleta extends Vehiculo {
         setKilometros(Integer.parseInt(System.console().readLine()));
         System.out.println("Caballitooo");
     }
-
-    public int kilometrosBici() {
-        return getKilometrosObj();
-    }
 }

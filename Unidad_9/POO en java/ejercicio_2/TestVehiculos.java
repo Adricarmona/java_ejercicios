@@ -28,16 +28,17 @@ public class TestVehiculos {
                         miBicicleta.caballito();
                         break;
                     case 3:
-
+                        miCoche.andarCoche();
                         break;
                     case 4:
-
+                        miCoche.quemarRueda();
                         break;
                     case 5:
                         System.out.println("Kilometros bicicleta: "+miBicicleta.getKilometrosObj());
                         break;
                     case 6:
-
+                        System.out.println("Kilometros coche: "+miCoche.getKilometrosObj());
+                        
                         break;
                     case 7:
                         System.out.println("Kilometros totales: "+Vehiculo.getKilometrosTot());
