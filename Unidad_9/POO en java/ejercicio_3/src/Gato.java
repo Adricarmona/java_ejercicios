@@ -1,3 +1,7 @@
-public class Gato {
+public class Gato extends Mamifero{
     
+    Gato(String nombre){
+        super(nombre);
+    }
+
 }
