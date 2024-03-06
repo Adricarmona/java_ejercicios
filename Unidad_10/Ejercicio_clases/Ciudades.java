@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Set;
 
 public class Ciudades {
     HashMap<String, ArrayList<Integer>> ciudades;
@@ -19,10 +20,42 @@ public class Ciudades {
         ciudades.put(ciudadesNombre.toLowerCase(), codigo);
     }
 
+    protected boolean comprobarExistenciaCiudad(String ciudad){
+        Set<String> ciudadesCodigo = ciudades.keySet();
+        for (String ciduadess : ciudadesCodigo) {
+            if (ciduadess.equals(ciudad)) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    protected boolean comprobarCiudad(Integer postalIngesada){
+        ArrayList<Integer> postalComprobar;
+        Set<String> ciudadesCodigo = ciudades.keySet();
+        for (String ciduadess : ciudadesCodigo) {
+            postalComprobar = ciudades.get(ciduadess);
+            for (Integer postal : postalComprobar) {
+                if (postal.equals(postalIngesada)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
     // sentencias
     public void anadirPostal(String ciudad ,int postal) {
-        codigo = ciudades.get(ciudad.toLowerCase());
-        codigo.add(postal);
+        if (comprobarExistenciaCiudad(ciudad.toLowerCase())) {
+            if (!comprobarCiudad(postal)) {
+                codigo = ciudades.get(ciudad.toLowerCase());
+                codigo.add(postal);
+            } else {
+                System.out.println("Existe ya ese codigo postal");
+            }            
+        } else {
+            System.out.println("No existe esa ciudad");
+        }
     }
 
     public void anadirCiudad(String nombre){
