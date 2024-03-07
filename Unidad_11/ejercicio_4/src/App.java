@@ -11,25 +11,47 @@ public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Ejercicio 4");
         System.out.print("Archivo a ordenar: ");
-        String archivo = System.console().readLine();
         try {
-            ArrayList<String> archivos = new ArrayList<String>();
-            BufferedReader br = new BufferedReader(new FileReader(archivo));
-            String datos = br.readLine();
-            archivos.add(datos);
-            while (datos != null) {
-                datos = br.readLine();
-                if (datos != null) {
-                    archivos.add(datos);
+            String archivo = System.console().readLine();// el archivo que pide
+            
+            try {
+                // el array list de los archivos y el archivo a leer
+                ArrayList<String> archivos = new ArrayList<String>();
+                BufferedReader br = new BufferedReader(new FileReader(archivo));
+
+                // metemos los datos del archivo al array list
+                String datos = br.readLine();
+                archivos.add(datos);
+
+                while (datos != null) {
+                    datos = br.readLine();
+                    if (datos != null) {
+                        archivos.add(datos);
+                    }
                 }
-            }
-            System.out.println(archivos);
-            Collections.sort(archivos);
-            System.out.println(archivos);
-            BufferedWriter bw = new BufferedWriter(new FileWriter(archivos));
-            br.close();
-        } catch (FileNotFoundException e) {
-            System.out.println("No existe el fichero"+e);
+
+                // con esta variable lo ordenamos
+                Collections.sort(archivos);
+
+
+                // donde selecciona las lineas para volver a meterlas al archivo
+                String[] array = archivos.toArray(new String[archivos.size()]);
+                BufferedWriter bw = new BufferedWriter(new FileWriter(archivo));
+                for (String string : array) {
+                    bw.write(string+"\n");;
+                };
+
+                // cerramos los archivos de escritura y de lectura
+                bw.close();
+                br.close();
+
+                // los errores
+            } catch (FileNotFoundException e) {
+                System.out.println("No existe el fichero");
+            }        
+        } catch (Exception e) {
+            System.out.println("Error en el nombre introducido");
         }
+
     }
 }

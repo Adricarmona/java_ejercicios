@@ -1,0 +1,7 @@
+test1 aaa1
+// test 1.5
+test2
+aa /*
+test2.5
+*/ aa
+test3
